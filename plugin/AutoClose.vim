@@ -366,7 +366,7 @@ function! s:DefineVariables()
     " The buffer namespace is used internally
     let defaults = {
                 \ 'AutoClosePairs': AutoClose#DefaultPairs(),
-                \ 'AutoCloseProtectedRegions': ["Comment", "String", "Character"],
+                \ 'AutoCloseProtectedRegions': ["Comment"],
                 \ 'AutoCloseSmartQuote': 1,
                 \ 'AutoCloseOn': 1,
                 \ 'AutoCloseSelectionWrapPrefix': '<LEADER>a',
